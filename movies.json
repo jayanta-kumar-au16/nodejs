@@ -1,0 +1,33 @@
+[
+  { "movie1":{ 
+    "movie_name":"blackpanther",
+    "rating":"5",
+    "date":"12.05.21"
+    },
+    "movie2":{
+    "movie_name":"blackpanther",
+    "rating":"5",
+    "date":"12.05.21"
+    },
+    "movie3":{
+    "movie_name":"blackpanther",
+    "rating":"5",
+    "date":"12.05.21"
+    },
+    "movie4":{
+    "movie_name":"blackpanther",
+    "rating":"5",
+    "date":"12.05.21"
+    },
+    "movie5":{
+    "movie_name":"blackpanther",
+    "rating":"5",
+    "date":"12.05.21"
+    },
+    "movie6":{
+    "movie_name":"blackpanther",
+    "rating":"5",
+    "date":"12.05.21"
+    }
+}
+]
