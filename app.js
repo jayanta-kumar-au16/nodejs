@@ -28,14 +28,14 @@ async(req,res)=>{
     // }
     // const {movie_name , rating , date} = req.body;
     try {
-        const Movie =  movies.push(
-           { movie7:{
-            movie_name:req.body.movie_name,
-            rating:req.body.rating,
-            date:req.body.date,
-            }}
-        );
-        res.json(Movie);
+        const Movie = {
+            "movie_name":"spider-man No-Way-Home",
+            "rating":"5",
+            "date":"21.08.21"
+        }
+        movies.push(Movie)
+        console.log(movies);
+        res.json({movies});
     } catch (error) {
         res.status(500).send("Internal error occured");
     }
