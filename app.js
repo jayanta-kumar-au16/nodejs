@@ -12,10 +12,7 @@ app.use(cors({
 }))
 
 app.get('/',(req,res)=>{
-    const getmovies = movies.map(movie=>{
-        res.json({movie});
-    });
-    console.log(getmovies);
+    res.json({movies});
 })
 
 app.post('/addmovies',
